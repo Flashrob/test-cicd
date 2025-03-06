@@ -1,4 +1,4 @@
-# This workflow will launch a clean Ubuntu OS, install app dependencies and run tests
+# This workflow will launch a clean Ubuntu OS, install app dependencies and run test
 name: CI
 
 # Run on push or PR to main branch
@@ -10,6 +10,7 @@ on:
 
 jobs:
   build:
+    name: CI
     # Specify which OS to run this workflow on
     runs-on: ubuntu-latest
 
